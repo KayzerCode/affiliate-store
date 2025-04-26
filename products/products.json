@@ -5,8 +5,8 @@
    "price": "29.99€",
    "affiliate_link": "https://amazon.com/dp/exampleproduct?tag=yourtag",
    "description": "Универсальный хаб с HDMI, USB 3.0 и кардридером для ноутбуков.",
-   "category": "Гаджеты",
-   "tags": ["USB", "Ноутбуки", "Аксессуары"]
+   "category": "Gadgets",
+   "tags": ["USB", "Notebooks", "Notebook Accessories"]
  },
  {
    "name": "Bluetooth наушники",
