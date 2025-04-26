@@ -1,0 +1,20 @@
+[
+ {
+   "name": "USB-C Hub 7-в-1",
+   "image": "https://via.placeholder.com/400x300?text=USB-C+Hub",
+   "price": "29.99€",
+   "affiliate_link": "https://amazon.com/dp/exampleproduct?tag=yourtag",
+   "description": "Универсальный хаб с HDMI, USB 3.0 и кардридером для ноутбуков.",
+   "category": "Гаджеты",
+   "tags": ["USB", "Ноутбуки", "Аксессуары"]
+ },
+ {
+   "name": "Bluetooth наушники",
+   "image": "https://via.placeholder.com/400x300?text=Headphones",
+   "price": "59.99€",
+   "affiliate_link": "https://amazon.com/dp/exampleproduct2?tag=yourtag",
+   "description": "Беспроводные наушники с шумоподавлением.",
+   "category": "Аудио",
+   "tags": ["Наушники", "Bluetooth"]
+ }
+]
