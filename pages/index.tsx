@@ -15,7 +15,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
-      <h1 className="text-3xl font-bold mb-6 text-center">Магазин аффилиатных товаров</h1>
+      <h1 className="text-3xl font-bold mb-6 text-center">Affiliate Products Store</h1>
 
       <div className="flex justify-center mb-8">
         <select
@@ -23,7 +23,7 @@ export default function HomePage() {
           className="p-2 border rounded"
           defaultValue=""
         >
-          <option value="">Все категории</option>
+          <option value="">All Categories</option>
           {categories.map((cat) => (
             <option key={cat} value={cat}>
               {cat}
