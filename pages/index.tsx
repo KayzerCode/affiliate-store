@@ -89,12 +89,12 @@ export default function HomePage() {
 
       <footer className="text-center text-gray-400 text-sm p-4">
         <div className="space-x-4">
-          <a href="/affiliate-disclaimer" className="underline hover:text-gray-600">
+          <Link href="/affiliate-disclaimer" className="underline hover:text-gray-600">
             Affiliate Disclaimer
-          </a>
-          <a href="/privacy-policy" className="underline hover:text-gray-600">
+          </Link>
+          <Link href="/privacy-policy" className="underline hover:text-gray-600">
             Privacy Policy
-          </a>
+          </Link>
         </div>
       </footer>
     </>
