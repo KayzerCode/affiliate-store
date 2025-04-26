@@ -1,20 +1,20 @@
 [
  {
-   "name": "USB-C Hub 7-in-1",
-   "image": "https://via.placeholder.com/400x300?text=USB-C+Hub",
-   "price": "29.99€",
-   "affiliate_link": "https://amazon.com/dp/exampleproduct?tag=yourtag",
-   "description": "Universal USB-C Hub with 7 ports for all your devices.",
-   "category": "Gadgets",
-   "tags": ["USB", "Notebooks", "Notebook Accessories"]
+   "name": "Apple AirPods 4 Wireless Earbuds",
+   "image": "https://a.media-amazon.com/images/I/61iBtxCUabL._AC_SL1500_.jpg",
+   "price": "91.27€",
+   "affiliate_link": "https://amzn.to/3EGxKjm",
+   "description": "Bluetooth Headphones, Personalized Spatial Audio, Sweat and Water Resistant, USB-C Charging Case, H2 Chip, Up to 30 Hours of Battery Life, Effortless Setup for iPhone",
+   "category": "Headphones",
+   "tags": ["Apple", "Bluetooth", "Headphones"]
  },
  {
-   "name": "Bluetooth Headphones",
-   "image": "https://via.placeholder.com/400x300?text=Headphones",
-   "price": "59.99€",
-   "affiliate_link": "https://amazon.com/dp/exampleproduct2?tag=yourtag",
-   "description": "High-quality Bluetooth headphones with noise cancellation.",
-   "category": "Audio",
-   "tags": ["Bla bla", "Bluetooth"]
- }
+  "name": "JBL Tune 510BT - Bluetooth headphones",
+  "image": "https://a.media-amazon.com/images/I/51EUjPMn6UL._AC_SL1500_.jpg",
+  "price": "39.95€",
+  "affiliate_link": "https://amzn.to/3YktuNb",
+  "description": "Up to 40 hours battery, microphone for call, foldable and comfortable, Android and iOs compatible (White)",
+  "category": "Headphones",
+  "tags": ["Apple", "Bluetooth", "Headphones"]
+}
 ]

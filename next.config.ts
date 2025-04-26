@@ -1,10 +1,18 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-  reactStrictMode: true,
+/** @type {import('next').NextConfig} */
+const nextConfig = {
   images: {
-    domains: ['via.placeholder.com'/* , 'your-cdn.com', 'another-cdn.com' */],
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'm.media-amazon.com',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'a.media-amazon.com',
+        pathname: '/**',
+      }
+    ],
   },
 };
 
