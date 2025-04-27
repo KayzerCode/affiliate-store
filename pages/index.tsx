@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import { useEffect, useState } from "react";
 import ProductCard, { Product } from "@/components/ProductCard";
 import Link from "next/link";
@@ -97,6 +98,7 @@ export default function HomePage() {
           </Link>
         </div>
       </footer>
+      <Analytics />
     </>
   );
 }

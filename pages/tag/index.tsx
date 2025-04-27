@@ -1,4 +1,3 @@
-import { Analytics } from "@vercel/analytics/react"
 import Link from "next/link";
 import productsData from "@/products/products.json";
 import { toUrlSlug } from "@/utils/slugify";
