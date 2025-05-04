@@ -1,6 +1,5 @@
 import { FC } from "react";
 import Image from "next/image";
-import { Star } from "lucide-react"; // Подключаем иконки (например, из lucide-react)
 
 export type Product = {
   name: string;
@@ -10,80 +9,33 @@ export type Product = {
   description?: string;
   category?: string;
   tags?: string[];
-  rating?: number; // Добавляем рейтинг (опционально)
 };
 
 const ProductCard: FC<{ product: Product }> = ({ product }) => {
   return (
-    <div className="group bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition-all duration-300 max-w-sm mx-auto transform hover:-translate-y-1">
-      {/* Изображение */}
-      <div className="relative w-full h-56 mb-4 overflow-hidden rounded-xl">
+    <div className="bg-white p-4 rounded-2xl shadow hover:shadow-lg transition">
+      <div className="relative w-full h-48 mb-4">
         <Image
           src={product.image}
           alt={product.name}
           fill
-          className="object-cover transition-transform duration-300 group-hover:scale-105"
+          className="object-cover rounded-xl"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          priority // Добавляем приоритет для важных изображений
         />
-        {/* Тег категории (если есть) */}
-        {product.category && (
-          <span className="absolute top-2 left-2 bg-indigo-500 text-white text-xs font-semibold px-2 py-1 rounded-full">
-            {product.category}
-          </span>
-        )}
       </div>
-
-      {/* Название и рейтинг */}
-      <div className="flex justify-between items-center mb-2">
-        <h2 className="text-xl font-bold text-gray-800 truncate">{product.name}</h2>
-        {product.rating && (
-          <div className="flex items-center space-x-1">
-            {[...Array(5)].map((_, i) => (
-              <Star
-                key={i}
-                className={`w-4 h-4 ${
-                  i < (product.rating ?? 0) ? "text-yellow-400 fill-current" : "text-gray-300"
-                }`}
-              />
-            ))}
-          </div>
-        )}
-      </div>
-
-      {/* Описание */}
+      <h2 className="text-xl font-semibold mb-2">{product.name}</h2>
+      {product.price && <p className="text-gray-700 mb-2">{product.price}</p>}
       {product.description && (
-        <p className="text-gray-600 text-sm mb-3 line-clamp-2">{product.description}</p>
+        <p className="text-gray-500 text-sm mb-4">{product.description}</p>
       )}
-
-      {/* Теги */}
-      {product.tags && product.tags.length > 0 && (
-        <div className="flex flex-wrap gap-2 mb-3">
-          {product.tags.map((tag, index) => (
-            <span
-              key={index}
-              className="text-xs bg-gray-100 text-gray-700 px-2 py-1 rounded-full"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-      )}
-
-      {/* Цена и кнопка */}
-      <div className="flex items-center justify-between mt-4">
-        {product.price && (
-          <p className="text-lg font-semibold text-gray-900">{product.price}</p>
-        )}
-        <a
-          href={product.affiliate_link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-gradient-to-r from-indigo-500 to-blue-500 hover:from-indigo-600 hover:to-blue-600 text-white px-4 py-2 rounded-xl text-sm font-medium transition-all duration-300"
-        >
-          Buy Now
-        </a>
-      </div>
+      <a
+        href={product.affiliate_link}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-xl text-center"
+      >
+        Buy Now
+      </a>
     </div>
   );
 };
