@@ -1,6 +1,6 @@
 import { FC } from "react";
 import Image from "next/image";
-import { Star } from "lucide-react"; // Подключаем иконки (например, из lucide-react)
+// import { Star } from "lucide-react"; // Подключаем иконки (например, из lucide-react)
 
 export type Product = {
   name: string;
@@ -34,22 +34,6 @@ const ProductCard: FC<{ product: Product }> = ({ product }) => {
         )}
       </div>
 
-      {/* Название и рейтинг */}
-      <div className="flex justify-between items-center mb-2">
-        <h2 className="text-xl font-bold text-gray-800 truncate">{product.name}</h2>
-        {product.rating && (
-          <div className="flex items-center space-x-1">
-            {[...Array(5)].map((_, i) => (
-              <Star
-                key={i}
-                className={`w-4 h-4 ${
-                  i < (product.rating ?? 0) ? "text-yellow-400 fill-current" : "text-gray-300"
-                }`}
-              />
-            ))}
-          </div>
-        )}
-      </div>
 
       {/* Описание */}
       {product.description && (
