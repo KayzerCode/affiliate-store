@@ -1,5 +1,8 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+# tools IS NOT for Vercel Frontend
+tools/
+
 # dependencies
 /node_modules
 /.pnp
