@@ -1,20 +1,242 @@
 [
- {
-   "name": "Apple AirPods 4 Wireless Earbuds",
-   "image": "https://a.media-amazon.com/images/I/61iBtxCUabL._AC_SL1500_.jpg",
-   "price": "91.27€",
-   "affiliate_link": "https://amzn.to/3EGxKjm",
-   "description": "Bluetooth Headphones, Personalized Spatial Audio, Sweat and Water Resistant, USB-C Charging Case, H2 Chip, Up to 30 Hours of Battery Life, Effortless Setup for iPhone",
-   "category": "Headphones",
-   "tags": ["Apple", "Bluetooth", "Headphones"]
- },
- {
-  "name": "JBL Tune 510BT - Bluetooth headphones",
-  "image": "https://a.media-amazon.com/images/I/51EUjPMn6UL._AC_SL1500_.jpg",
-  "price": "39.95€",
-  "affiliate_link": "https://amzn.to/3YktuNb",
-  "description": "Up to 40 hours battery, microphone for call, foldable and comfortable, Android and iOs compatible (White)",
-  "category": "Headphones",
-  "tags": ["Apple", "Bluetooth", "Headphones"]
-}
+  {
+    "name": "Wireless Earbuds Bluetooth 5.3 Headphones 50H Playtime Deep Bass Stereo Ear Buds with Mic IPX7 Waterproof Comfort Lightweight in Ear Earphones for Pad Android/iOS Phones Gifts for Women Men",
+    "image": "https://m.media-amazon.com/images/I/61+991XAdoL._AC_UY218_.jpg",
+    "price": "$17.99",
+    "affiliate_link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMDg1ODg4MzkwMTAyOTY2OjE3NDYzNzA4OTg6c3BfYXRmOjMwMDczMzg5NTYxMjUwMjo6MDo6&url=%2FWireless-Bluetooth-Headphones-Waterproof-Earphones%2Fdp%2FB0DJTBTYL2%2Fref%3Dsr_1_1_sspa%3Fdib%3DeyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4%26dib_tag%3Dse%26keywords%3Dbluetooth%2Bheadphones%26qid%3D1746370898%26sr%3D8-1-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1?tag=top1000008-20",
+    "description": "Wireless Earbuds Bluetooth 5.3 Headphones 50H Playtime Deep Bass Stereo Ear Buds with Mic IPX7 Waterproof Comfort Lightweight in Ear Earphones for Pad Android/iOS Phones Gifts for Women Men",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "Soundcore Anker Life Q20 Hybrid Active Noise Cancelling Headphones, Wireless Over Ear Bluetooth Headphones, 60H Playtime, Hi-Res Audio, Deep Bass, Memory Foam Ear Cups, Travel, Office, USB-C Charging",
+    "image": "https://m.media-amazon.com/images/I/61OHplw85eL._AC_UY218_.jpg",
+    "price": "$39.99",
+    "affiliate_link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMDg1ODg4MzkwMTAyOTY2OjE3NDYzNzA4OTg6c3BfYXRmOjMwMDY0MzUzNTI1MDAwMjo6MDo6&url=%2FSoundcore-Cancelling-Headphones-Wireless-Bluetooth%2Fdp%2FB0DLKB5V35%2Fref%3Dsr_1_2_sspa%3Fdib%3DeyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4%26dib_tag%3Dse%26keywords%3Dbluetooth%2Bheadphones%26qid%3D1746370898%26sr%3D8-2-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9hdGY%26psc%3D1?tag=top1000008-20",
+    "description": "Soundcore Anker Life Q20 Hybrid Active Noise Cancelling Headphones, Wireless Over Ear Bluetooth Headphones, 60H Playtime, Hi-Res Audio, Deep Bass, Memory Foam Ear Cups, Travel, Office, USB-C Charging",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "JBL Tune 510BT - Bluetooth headphones with up to 40 hours battery, microphone for call, foldable and comfortable, Android and iOs compatible (Black)",
+    "image": "https://m.media-amazon.com/images/I/61kFL7ywsZS._AC_UY218_.jpg",
+    "price": "$29.95",
+    "affiliate_link": "https://www.amazon.com/JBL-Tune-510BT-Ear-Headphones/dp/B08WM3LMJF/ref=sr_1_3?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-3?tag=top1000008-20",
+    "description": "JBL Tune 510BT - Bluetooth headphones with up to 40 hours battery, microphone for call, foldable and comfortable, Android and iOs compatible (Black)",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "JBL Vibe Beam - True Wireless JBL Deep Bass Sound Earbuds, Bluetooth 5.2, Water & Dust Resistant, Hands-free call with VoiceAware, Up to 32 hours of battery life (Black)",
+    "image": "https://m.media-amazon.com/images/I/41+1Csr1pSL._AC_UY218_.jpg",
+    "price": "$39.95",
+    "affiliate_link": "https://www.amazon.com/JBL-Vibe-Beam-Wireless-Headphones/dp/B0BQPNMXQV/ref=sr_1_4?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-4?tag=top1000008-20",
+    "description": "JBL Vibe Beam - True Wireless JBL Deep Bass Sound Earbuds, Bluetooth 5.2, Water & Dust Resistant, Hands-free call with VoiceAware, Up to 32 hours of battery life (Black)",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "Soundcore Anker Life Q20 Hybrid Active Noise Cancelling Headphones, Wireless Over Ear Bluetooth Headphones, 60H Playtime, Hi-Res Audio, Deep Bass, Memory Foam Ear Cups, Travel, Office, USB-C Charging",
+    "image": "https://m.media-amazon.com/images/I/61OHplw85eL._AC_UY218_.jpg",
+    "price": "$39.99",
+    "affiliate_link": "https://www.amazon.com/Soundcore-Cancelling-Headphones-Wireless-Bluetooth/dp/B0DLKB5V35/ref=sr_1_5?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-5?tag=top1000008-20",
+    "description": "Soundcore Anker Life Q20 Hybrid Active Noise Cancelling Headphones, Wireless Over Ear Bluetooth Headphones, 60H Playtime, Hi-Res Audio, Deep Bass, Memory Foam Ear Cups, Travel, Office, USB-C Charging",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "Wireless Earbuds Bluetooth 5.3 Headphones 50H Playtime Deep Bass Stereo Ear Buds with Mic IPX7 Waterproof Comfort Lightweight in Ear Earphones for Pad Android/iOS Phones Gifts for Women Men",
+    "image": "https://m.media-amazon.com/images/I/61+991XAdoL._AC_UL320_.jpg",
+    "price": "$17.99",
+    "affiliate_link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxNjk5NTEzOTk3MjkyNDk5OjE3NDYzNzA4OTg6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDc0MDA3MzUwMDkwMjo6MDo6&url=%2FWireless-Bluetooth-Headphones-Waterproof-Earphones%2Fdp%2FB0DJTBTYL2%2Fref%3Dsxin_13_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.790ad864-ba18-4292-84e3-39c9c1b3ca75%253Aamzn1.sym.790ad864-ba18-4292-84e3-39c9c1b3ca75%26cv_ct_cx%3Dbluetooth%2Bheadphones%26keywords%3Dbluetooth%2Bheadphones%26pd_rd_i%3DB0DJTBTYL2%26pd_rd_r%3D081f8ac2-3578-4039-9cb6-cf79cee97876%26pd_rd_w%3DNk8bS%26pd_rd_wg%3DQHL5U%26pf_rd_p%3D790ad864-ba18-4292-84e3-39c9c1b3ca75%26pf_rd_r%3DH6RPJ5VMERKWGKZT28T6%26qid%3D1746370898%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-1-e169343e-09af-4d41-85b1-8335fe8f32d0-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1?tag=top1000008-20",
+    "description": "Wireless Earbuds Bluetooth 5.3 Headphones 50H Playtime Deep Bass Stereo Ear Buds with Mic IPX7 Waterproof Comfort Lightweight in Ear Earphones for Pad Android/iOS Phones Gifts for Women Men",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "TAGRY Bluetooth Headphones True Wireless Earbuds 60H Playback LED Power Display Earphones with Wireless Charging Case IPX5 Waterproof in-Ear Ear buds with Mic for TV Smart Phone Laptop Computer Sports",
+    "image": "https://m.media-amazon.com/images/I/61uEvVoizoL._AC_UL320_.jpg",
+    "price": "$35.99",
+    "affiliate_link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxNjk5NTEzOTk3MjkyNDk5OjE3NDYzNzA4OTg6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDE3MDIzMzkxODYwMjo6MTo6&url=%2FTAGRY-Bluetooth-Headphones-Earphones-Waterproof%2Fdp%2FB09DT48V16%2Fref%3Dsxin_13_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.790ad864-ba18-4292-84e3-39c9c1b3ca75%253Aamzn1.sym.790ad864-ba18-4292-84e3-39c9c1b3ca75%26cv_ct_cx%3Dbluetooth%2Bheadphones%26keywords%3Dbluetooth%2Bheadphones%26pd_rd_i%3DB09DT48V16%26pd_rd_r%3D081f8ac2-3578-4039-9cb6-cf79cee97876%26pd_rd_w%3DNk8bS%26pd_rd_wg%3DQHL5U%26pf_rd_p%3D790ad864-ba18-4292-84e3-39c9c1b3ca75%26pf_rd_r%3DH6RPJ5VMERKWGKZT28T6%26qid%3D1746370898%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-2-e169343e-09af-4d41-85b1-8335fe8f32d0-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1?tag=top1000008-20",
+    "description": "TAGRY Bluetooth Headphones True Wireless Earbuds 60H Playback LED Power Display Earphones with Wireless Charging Case IPX5 Waterproof in-Ear Ear buds with Mic for TV Smart Phone Laptop Computer Sports",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "Bluetooth Headphones, Wireless Over Ear Headphones with HiFi Stereo Microphone, Foldable Lightweight On Ear 5.4 Headphones with Deep Bass for Cellphone/Travel/Office/Home(Black)",
+    "image": "https://m.media-amazon.com/images/I/812z6Xg7rTL._AC_UL320_.jpg",
+    "price": "$19.99",
+    "affiliate_link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxNjk5NTEzOTk3MjkyNDk5OjE3NDYzNzA4OTg6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDY2MTMxNzgzOTAwMjo6Mjo6&url=%2FPointcinco-Bluetooth-Headphones-Microphone-Lightweight%2Fdp%2FB0CYSWKWQQ%2Fref%3Dsxin_13_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.790ad864-ba18-4292-84e3-39c9c1b3ca75%253Aamzn1.sym.790ad864-ba18-4292-84e3-39c9c1b3ca75%26cv_ct_cx%3Dbluetooth%2Bheadphones%26keywords%3Dbluetooth%2Bheadphones%26pd_rd_i%3DB0CYSWKWQQ%26pd_rd_r%3D081f8ac2-3578-4039-9cb6-cf79cee97876%26pd_rd_w%3DNk8bS%26pd_rd_wg%3DQHL5U%26pf_rd_p%3D790ad864-ba18-4292-84e3-39c9c1b3ca75%26pf_rd_r%3DH6RPJ5VMERKWGKZT28T6%26qid%3D1746370898%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-3-e169343e-09af-4d41-85b1-8335fe8f32d0-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1?tag=top1000008-20",
+    "description": "Bluetooth Headphones, Wireless Over Ear Headphones with HiFi Stereo Microphone, Foldable Lightweight On Ear 5.4 Headphones with Deep Bass for Cellphone/Travel/Office/Home(Black)",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime Wireless Charging Case Digital Display Sports Ear Buds with Earhook Deep Bass IPX7 Waterproof Over-Ear Earphones for TV Phone Laptop Black",
+    "image": "https://m.media-amazon.com/images/I/71G9a1iSpHL._AC_UL320_.jpg",
+    "price": "$37.99",
+    "affiliate_link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxNjk5NTEzOTk3MjkyNDk5OjE3NDYzNzA4OTg6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDEzMzk4NzA5MDgwMjo6Mzo6&url=%2FBluetooth-Headphones-Wireless-Waterproof-Earphones%2Fdp%2FB0C3W4MNN1%2Fref%3Dsxin_13_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.790ad864-ba18-4292-84e3-39c9c1b3ca75%253Aamzn1.sym.790ad864-ba18-4292-84e3-39c9c1b3ca75%26cv_ct_cx%3Dbluetooth%2Bheadphones%26keywords%3Dbluetooth%2Bheadphones%26pd_rd_i%3DB0C3W4MNN1%26pd_rd_r%3D081f8ac2-3578-4039-9cb6-cf79cee97876%26pd_rd_w%3DNk8bS%26pd_rd_wg%3DQHL5U%26pf_rd_p%3D790ad864-ba18-4292-84e3-39c9c1b3ca75%26pf_rd_r%3DH6RPJ5VMERKWGKZT28T6%26qid%3D1746370898%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-4-e169343e-09af-4d41-85b1-8335fe8f32d0-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1?tag=top1000008-20",
+    "description": "PocBuds Bluetooth Headphones Wireless Earbuds 80hrs Playtime Wireless Charging Case Digital Display Sports Ear Buds with Earhook Deep Bass IPX7 Waterproof Over-Ear Earphones for TV Phone Laptop Black",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "Soundcore Sport X20 by Anker, True-Wireless Workout Earbuds, Rotatable and Extendable Ear Hooks, Noise Cancelling, Deep Bass, IP68 Waterproof, Sweatproof, Dustproof, 48H Play, Sport Earbuds for Gym",
+    "image": "https://m.media-amazon.com/images/I/51dhkN5TYiL._AC_UL320_.jpg",
+    "price": "$79.99",
+    "affiliate_link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToxNjk5NTEzOTk3MjkyNDk5OjE3NDYzNzA4OTg6c3Bfc2VhcmNoX3RoZW1hdGljOjMwMDE3MDQ2MjI3MjgwMjo6NDo6&url=%2FSoundcore-True-Wireless-Extendable-Cancelling-Waterproof%2Fdp%2FB0CRT6HQ82%2Fref%3Dsxin_13_pa_sp_search_thematic_sspa%3Fcontent-id%3Damzn1.sym.790ad864-ba18-4292-84e3-39c9c1b3ca75%253Aamzn1.sym.790ad864-ba18-4292-84e3-39c9c1b3ca75%26cv_ct_cx%3Dbluetooth%2Bheadphones%26keywords%3Dbluetooth%2Bheadphones%26pd_rd_i%3DB0CRT6HQ82%26pd_rd_r%3D081f8ac2-3578-4039-9cb6-cf79cee97876%26pd_rd_w%3DNk8bS%26pd_rd_wg%3DQHL5U%26pf_rd_p%3D790ad864-ba18-4292-84e3-39c9c1b3ca75%26pf_rd_r%3DH6RPJ5VMERKWGKZT28T6%26qid%3D1746370898%26sbo%3DRZvfv%252F%252FHxDF%252BO5021pAnSA%253D%253D%26sr%3D1-5-e169343e-09af-4d41-85b1-8335fe8f32d0-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9zZWFyY2hfdGhlbWF0aWM%26psc%3D1?tag=top1000008-20",
+    "description": "Soundcore Sport X20 by Anker, True-Wireless Workout Earbuds, Rotatable and Extendable Ear Hooks, Noise Cancelling, Deep Bass, IP68 Waterproof, Sweatproof, Dustproof, 48H Play, Sport Earbuds for Gym",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "BERIBES Bluetooth Headphones Over Ear, 65H Playtime and 6 EQ Music Modes Wireless Headphones with Microphone, HiFi Stereo Foldable Lightweight Headset, Deep Bass for Home Office Cellphone PC Ect.",
+    "image": "https://m.media-amazon.com/images/I/71F2ccIPPLL._AC_UY218_.jpg",
+    "price": "$19.99",
+    "affiliate_link": "https://www.amazon.com/BERIBES-Bluetooth-Headphones-Microphone-Lightweight/dp/B09LYF2ST7/ref=sr_1_6?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-6?tag=top1000008-20",
+    "description": "BERIBES Bluetooth Headphones Over Ear, 65H Playtime and 6 EQ Music Modes Wireless Headphones with Microphone, HiFi Stereo Foldable Lightweight Headset, Deep Bass for Home Office Cellphone PC Ect.",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "Bose QuietComfort Ultra Bluetooth Headphones, Wireless Headphones with Spatial Audio, Over Ear Noise Cancelling with Mic, Up to 24 Hours of Playtime, Lunar Blue - Limited Edition Color",
+    "image": "https://m.media-amazon.com/images/I/61fJZu8p1FL._AC_UY218_.jpg",
+    "price": "$379.00",
+    "affiliate_link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMDg1ODg4MzkwMTAyOTY2OjE3NDYzNzA4OTg6c3BfbXRmOjMwMDQ2MjgzNDA5MTcwMjo6MDo6&url=%2FBose-QuietComfort-Bluetooth-Headphones-Cancelling%2Fdp%2FB0D4ZC4XMT%2Fref%3Dsr_1_7_sspa%3Fdib%3DeyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4%26dib_tag%3Dse%26keywords%3Dbluetooth%2Bheadphones%26qid%3D1746370898%26sr%3D8-7-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1?tag=top1000008-20",
+    "description": "Bose QuietComfort Ultra Bluetooth Headphones, Wireless Headphones with Spatial Audio, Over Ear Noise Cancelling with Mic, Up to 24 Hours of Playtime, Lunar Blue - Limited Edition Color",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "Picun B8 Bluetooth Headphones, 120H Playtime Headphones Wireless Bluetooth with 3 EQ Modes, Low Latency, Hands-Free Calls, Over Ear Headphones for Travel Home Office Cellphone PC Black",
+    "image": "https://m.media-amazon.com/images/I/714leNyXHIL._AC_UY218_.jpg",
+    "price": "$16.99",
+    "affiliate_link": "https://www.amazon.com/Picun-B8-Bluetooth-Headphones-Hands-Free/dp/B0CFV9XR2Q/ref=sr_1_8?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-8?tag=top1000008-20",
+    "description": "Picun B8 Bluetooth Headphones, 120H Playtime Headphones Wireless Bluetooth with 3 EQ Modes, Low Latency, Hands-Free Calls, Over Ear Headphones for Travel Home Office Cellphone PC Black",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "KVIDIO Bluetooth Headphones Over Ear, 65 Hours Playtime Wireless Headphones with Microphone, Foldable Lightweight Headset with Deep Bass, HiFi Stereo Sound for Travel Work Cellphone",
+    "image": "https://m.media-amazon.com/images/I/71Hx8b6HGbL._AC_UY218_.jpg",
+    "price": "$19.23",
+    "affiliate_link": "https://www.amazon.com/Bluetooth-Headphones-KVIDIO-Microphone-Lightweight/dp/B09BF64J55/ref=sr_1_9?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-9?tag=top1000008-20",
+    "description": "KVIDIO Bluetooth Headphones Over Ear, 65 Hours Playtime Wireless Headphones with Microphone, Foldable Lightweight Headset with Deep Bass, HiFi Stereo Sound for Travel Work Cellphone",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "Apple AirPods Pro 2 Wireless Earbuds, Active Noise Cancellation, Hearing Aid Feature, Bluetooth Headphones, Transparency, Personalized Spatial Audio, High-Fidelity Sound, H2 Chip, USB-C Charging",
+    "image": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_UY218_.jpg",
+    "price": "$169.00",
+    "affiliate_link": "https://www.amazon.com/Apple-Cancellation-Transparency-Personalized-High-Fidelity/dp/B0D1XD1ZV3/ref=sr_1_10?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-10?tag=top1000008-20",
+    "description": "Apple AirPods Pro 2 Wireless Earbuds, Active Noise Cancellation, Hearing Aid Feature, Bluetooth Headphones, Transparency, Personalized Spatial Audio, High-Fidelity Sound, H2 Chip, USB-C Charging",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "Wireless Earbuds 75hrs Bluetooth 5.4 Headphone Sport, 2025 Bluetooth Earbuds Stereo Deep Bass Over Ear Bud with Earhooks, ENC Noise Cancelling Mic, IPX7 Waterproof Earphone for Workout/Running",
+    "image": "https://m.media-amazon.com/images/I/71NMUHszF4L._AC_UY218_.jpg",
+    "price": "$23.99",
+    "affiliate_link": "https://www.amazon.com/Wireless-Bluetooth-Headphone-Cancelling-Waterproof/dp/B0CSXV3GK4/ref=sr_1_11?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-11?tag=top1000008-20",
+    "description": "Wireless Earbuds 75hrs Bluetooth 5.4 Headphone Sport, 2025 Bluetooth Earbuds Stereo Deep Bass Over Ear Bud with Earhooks, ENC Noise Cancelling Mic, IPX7 Waterproof Earphone for Workout/Running",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "Ear Buds Wireless Earbuds - Bluetooth 5.3 Headphones (48H Playback) Built in Mic with LED Display Charging Case, IP7 Waterproof Earphone for iPhone Andriod Phones Laptop Sports Workout - Black",
+    "image": "https://m.media-amazon.com/images/I/61-cWMMLBZL._AC_UY218_.jpg",
+    "price": "$18.99",
+    "affiliate_link": "https://www.amazon.com/sspa/click?ie=UTF8&spc=MToyMDg1ODg4MzkwMTAyOTY2OjE3NDYzNzA4OTg6c3BfbXRmOjMwMDc1MzI0NzA4NTUwMjo6MDo6&url=%2FEar-Buds-Wireless-Earbuds-Headphones%2Fdp%2FB0DSP674SK%2Fref%3Dsr_1_12_sspa%3Fdib%3DeyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4%26dib_tag%3Dse%26keywords%3Dbluetooth%2Bheadphones%26qid%3D1746370898%26sr%3D8-12-spons%26sp_csd%3Dd2lkZ2V0TmFtZT1zcF9tdGY%26psc%3D1?tag=top1000008-20",
+    "description": "Ear Buds Wireless Earbuds - Bluetooth 5.3 Headphones (48H Playback) Built in Mic with LED Display Charging Case, IP7 Waterproof Earphone for iPhone Andriod Phones Laptop Sports Workout - Black",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "TAGRY Active Noise Cancelling Headphones 100H Playtime Over Ear Bluetooth Headphones with Deep Bass Light Weight Earphones Comfort Headsets with Fast Charging for Travel Home Office PC Black",
+    "image": "https://m.media-amazon.com/images/I/71e4iqrmZWL._AC_UY218_.jpg",
+    "price": "$49.99",
+    "affiliate_link": "https://www.amazon.com/TAGRY-Cancelling-Headphones-Bluetooth-Earphones/dp/B0F52Y6DQS/ref=sr_1_13?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-13?tag=top1000008-20",
+    "description": "TAGRY Active Noise Cancelling Headphones 100H Playtime Over Ear Bluetooth Headphones with Deep Bass Light Weight Earphones Comfort Headsets with Fast Charging for Travel Home Office PC Black",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "TOZO A1 Wireless Earbuds Bluetooth 5.3 Light Weight in Ear IPX5 Waterproof Headphones 2 Mic for AI Calls, Immersive Premium Sound Bass Headset with Charging Case, 32 Presets EQ Customization via App",
+    "image": "https://m.media-amazon.com/images/I/71Ilitn6B+L._AC_UY218_.jpg",
+    "price": "$19.99",
+    "affiliate_link": "https://www.amazon.com/A1/dp/B09FT58QQP/ref=sr_1_14?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-14?tag=top1000008-20",
+    "description": "TOZO A1 Wireless Earbuds Bluetooth 5.3 Light Weight in Ear IPX5 Waterproof Headphones 2 Mic for AI Calls, Immersive Premium Sound Bass Headset with Charging Case, 32 Presets EQ Customization via App",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  },
+  {
+    "name": "kurdene Wireless Earbuds Bluetooth 5.3 in Ear Buds Light Weight Headphones,Deep Bass Sound,Built in Mics Headset,Clear Calls Earphones for Sports Workout",
+    "image": "https://m.media-amazon.com/images/I/715fNrGN+ML._AC_UY218_.jpg",
+    "price": "$9.99",
+    "affiliate_link": "https://www.amazon.com/kurdene-Bluetooth-Light-Weight-Headphones-Earphones/dp/B0D635YLCT/ref=sr_1_15?dib=eyJ2IjoiMSJ9.8Pq12fzmdP2ukWhbrtOzhjFLkwYmmE3bu114vpxFiFa_w7JqCK_mU2DtA2py17G6DZifeI8l05azhOJBsxM5MZxmqn8elpFMIuNz72EiVAbF7QidOlfuC5-0Tv9eKiBzxYMrjm-9TuJt-cEBzwZJdmWqPelkWyqPqSTukE8VyaVraqIXkRNv4XMbPm9ARLFiCOWlRolAQooIXKOdJlAHO0kQh_uiMi9NwtQ6625PygY._-TjFPR42D-L61EePMj-JKD23gmbxR2cW_63F7nHOX4&dib_tag=se&keywords=bluetooth+headphones&qid=1746370898&sr=8-15?tag=top1000008-20",
+    "description": "kurdene Wireless Earbuds Bluetooth 5.3 in Ear Buds Light Weight Headphones,Deep Bass Sound,Built in Mics Headset,Clear Calls Earphones for Sports Workout",
+    "category": "Audio",
+    "tags": [
+      "Headphones",
+      "Bluetooth"
+    ]
+  }
 ]
