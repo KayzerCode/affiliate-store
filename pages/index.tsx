@@ -4,7 +4,6 @@ import ProductCard, { Product } from "@/components/ProductCard";
 import Link from "next/link";
 import { toUrlSlug } from "@/utils/slugify";
 import Head from "next/head";
-import { Search } from "lucide-react"; // Иконка для поиска
 
 export default function HomePage() {
   const [products, setProducts] = useState<Product[]>([]);
@@ -80,7 +79,6 @@ export default function HomePage() {
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full p-3 pl-10 rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500"
             />
-            <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 w-5 h-5" />
           </div>
 
           {/* Categories */}
