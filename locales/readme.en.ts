@@ -44,18 +44,5 @@ export const en = {
       ]
     }
   ],
-
-  teamTitle: "👥 We are building a team",
-  team: [
-    "Frontend developers (Next.js, TailwindCSS, SSG)",
-    "Backend/API devs (Node.js, REST, integration)",
-    "Automation/no-code tinkerers (Google Sheets, Airtable)",
-    "Marketers (traffic, performance ads, creative testing)"
-  ],
-
-  mvpTitle: "🧪 MVP is working",
-  mvpText:
-    "We already built an MVP. It fetches products from Rainforest API, displays them on a Vercel-hosted shop, and generates affiliate traffic. First test clicks — confirmed.",
-
   contactTitle: "💬 Contact"
 };

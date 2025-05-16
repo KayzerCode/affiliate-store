@@ -46,24 +46,12 @@ export default function ReadmePage() {
         ))}
       </section>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-2">{t.teamTitle}</h2>
-        <ul className="list-disc list-inside space-y-1">
-          {t.team.map((role) => (
-            <li key={role}>{role}</li>
-          ))}
-        </ul>
-      </section>
 
-      <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-2">{t.mvpTitle}</h2>
-        <p>{t.mvpText}</p>
-      </section>
 
       <section>
         <h2 className="text-2xl font-semibold mb-2">{t.contactTitle}</h2>
         <p>
-          📬 Telegram: <strong>@Shopaffi</strong>
+          📬 Telegram: <strong></strong>
         </p>
         <p>
           🌐 Demo: <a href="https://affiliate-store-iota.vercel.app/" className="text-blue-600 underline"> Demo of Affiliate Shop</a>
