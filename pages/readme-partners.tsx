@@ -38,7 +38,12 @@ export default function PartnersPage() {
           📬 Telegram: <strong>@Shopaffi</strong>
         </p>
         <p>
-          🌐 Demo: <a href="https://affistart.vercel.app" className="text-blue-600 underline">affistart.vercel.app</a>
+          <a href="https://affiliate-store-iota.vercel.app/readme" className="text-blue-600 underline"> Buy Shop Pricing Page</a>
+          </p>
+
+
+        <p>
+          🌐 Demo: <a href="https://affiliate-store-iota.vercel.app/" className="text-blue-600 underline">Demo</a>
         </p>
       </section>
     </div>
