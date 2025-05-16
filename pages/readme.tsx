@@ -63,10 +63,10 @@ export default function ReadmePage() {
       <section>
         <h2 className="text-2xl font-semibold mb-2">{t.contactTitle}</h2>
         <p>
-          📬 Telegram: <strong>@yourhandle</strong>
+          📬 Telegram: <strong>@Shopaffi</strong>
         </p>
         <p>
-          🌐 Demo: <a href="https://affistart.vercel.app" className="text-blue-600 underline">affistart.vercel.app</a>
+          🌐 Demo: <a href="https://affiliate-store-iota.vercel.app/" className="text-blue-600 underline"> Demo of Affiliate Shop</a>
         </p>
       </section>
     </div>
