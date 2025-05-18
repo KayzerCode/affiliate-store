@@ -1,11 +1,8 @@
 import { useState } from "react";
 import { en } from "@/locales/readme.en";
-// Future: import { fi } from "@/locales/readme.fi"; etc.
 
 const locales = {
   en,
-  // fi,
-  // de,
 };
 
 export default function ReadmePage() {
@@ -16,7 +13,6 @@ export default function ReadmePage() {
     <div className="max-w-4xl mx-auto p-6 text-gray-800">
       <div className="flex justify-end mb-4">
         <button onClick={() => setLang("en")}>🇬🇧</button>
-        {/* <button onClick={() => setLang("fi")}>🇫🇮</button> */}
       </div>
 
       <h1 className="text-3xl font-bold mb-4">{t.title}</h1>
@@ -32,21 +28,43 @@ export default function ReadmePage() {
       </section>
 
       <section className="mb-10">
-        <h2 className="text-2xl font-semibold mb-2">{t.plansTitle}</h2>
-        {t.plans.map((plan) => (
-          <div key={plan.name} className="border rounded-xl p-4 mb-4">
-            <h3 className="text-xl font-bold">{plan.name}</h3>
-            <p className="italic mb-2">{plan.desc}</p>
-            <ul className="list-disc list-inside">
-              {plan.features.map((f) => (
-                <li key={f}>{f}</li>
-              ))}
-            </ul>
-          </div>
-        ))}
+        <h2 className="text-2xl font-semibold mb-8 text-center">{t.plansTitle}</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          {t.plans.map((plan) => (
+            <div
+              key={plan.name}
+              className="border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-md transition-shadow"
+            >
+              <h3 className="text-xl font-bold mb-2">
+                {plan.name.split('—')[0].trim()}
+              </h3>
+              <p className="text-gray-500 mb-4">
+                {plan.name.split('—')[1].trim()}
+              </p>
+              <div className="mb-6">
+                <span className="text-3xl font-bold">
+                  {plan.name.includes('49€') ? '49€' :
+                   plan.name.includes('99€') ? '99€' : '149€'}
+                </span>
+                <span className="text-gray-500">/month</span>
+              </div>
+              <ul className="space-y-3 mb-6">
+                {plan.features.map((f) => (
+                  <li key={f} className="flex items-center justify-center">
+                    <svg className="w-5 h-5 mr-2 text-green-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
+                    </svg>
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <button className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition">
+                Sign Up!
+              </button>
+            </div>
+          ))}
+        </div>
       </section>
-
-
 
       <section>
         <h2 className="text-2xl font-semibold mb-2">{t.contactTitle}</h2>
@@ -54,7 +72,7 @@ export default function ReadmePage() {
           📬 Telegram: <strong></strong>
         </p>
         <p>
-          🌐 Demo: <a href="https://affiliate-store-iota.vercel.app/" className="text-blue-600 underline"> Demo of Affiliate Shop</a>
+          🌐 Demo: <a href="https://affiliate-store-iota.vercel.app/" className="text-blue-600 underline">Demo of Affiliate Shop</a>
         </p>
       </section>
     </div>
