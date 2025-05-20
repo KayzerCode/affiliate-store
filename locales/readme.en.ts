@@ -1,5 +1,5 @@
 export const en = {
-  title: "🛍️ AffiStart — your affiliate store in one click",
+  title: "🛍️ Chop Kritters — your affiliate store in one click",
   subtitle: "Launch a complete affiliate product store in 1 day.",
 
   featuresTitle: "🔥 What you get",

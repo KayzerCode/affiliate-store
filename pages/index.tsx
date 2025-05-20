@@ -49,7 +49,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Best Tech Deals - Shop Beats Headphones, Earbuds & Speakers</title>
+        <title>Chop Kritters</title>
         <meta
           name="description"
           content="Discover top deals on Beats headphones, earbuds, speakers, and tech accessories. Shop curated affiliate products for the best prices."
@@ -62,10 +62,10 @@ export default function HomePage() {
         {/* Hero Section */}
         <header className="bg-gradient-to-r from-indigo-600 to-blue-500 text-white py-12 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Shop Beats Headphones, Earbuds & Speakers
+            Headphones, Earbuds & Speakers
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto">
-            Find the best tech deals curated just for you.
+            Top Deals
           </p>
         </header>
 

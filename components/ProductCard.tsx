@@ -24,9 +24,9 @@ const ProductCard: FC<{ product: Product }> = ({ product }) => {
           fill
           className="object-cover transition-transform duration-300 group-hover:scale-105"
           sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-          priority // Добавляем приоритет для важных изображений
+          priority
         />
-        {/* Тег категории (если есть) */}
+        {/* Cateogy tag */}
         {product.category && (
           <span className="absolute top-2 left-2 bg-indigo-500 text-white text-xs font-semibold px-2 py-1 rounded-full">
             {product.category}

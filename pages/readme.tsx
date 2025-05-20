@@ -35,9 +35,10 @@ export default function ReadmePage() {
               key={plan.name}
               className="border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-md transition-shadow"
             >
-              <h3 className="text-xl font-bold mb-2">
+              <h3 className="text-xl font-bold mb-5">
                 {plan.name}
               </h3>
+              <p className="text-red-500 text-2xl mb-4">{plan.desc}</p>
               <div className="mb-6">
                 <span className="text-3xl font-bold">
                   {plan.name.includes('💼') && '€49'}
