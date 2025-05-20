@@ -36,17 +36,14 @@ export default function ReadmePage() {
               className="border border-gray-200 rounded-lg p-6 text-center shadow-sm hover:shadow-md transition-shadow"
             >
               <h3 className="text-xl font-bold mb-2">
-                {plan.name.split('—')[0].trim()}
+                {plan.name}
               </h3>
-              <p className="text-gray-500 mb-4">
-                {plan.name.split('—')[1].trim()}
-              </p>
               <div className="mb-6">
                 <span className="text-3xl font-bold">
-                  {plan.name.includes('49€') ? '49€' :
-                   plan.name.includes('99€') ? '99€' : '149€'}
+                  {plan.name.includes('💼') && '€49'}
+                  {plan.name.includes('🚀') && '€99'}
+                  {plan.name.includes('🧠') && '€199'}
                 </span>
-                <span className="text-gray-500">/month</span>
               </div>
               <ul className="space-y-3 mb-6">
                 {plan.features.map((f) => (
@@ -69,7 +66,7 @@ export default function ReadmePage() {
       <section>
         <h2 className="text-2xl font-semibold mb-2">{t.contactTitle}</h2>
         <p>
-          📬 Telegram: <strong></strong>
+          📬 Telegram: <strong><a href="https://t.me/chopkritters">@chopkritters</a></strong>
         </p>
         <p>
           🌐 Demo: <a href="https://affiliate-store-iota.vercel.app/" className="text-blue-600 underline">Demo of Affiliate Shop</a>

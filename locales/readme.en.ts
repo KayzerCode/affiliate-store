@@ -15,7 +15,7 @@ export const en = {
   plansTitle: "📦 Pricing Plans",
   plans: [
     {
-      name: "💼 Starter — 49€/month",
+      name: "💼 Starter",
       desc: "Great for a quick start",
       features: [
         "Up to 20 products",
@@ -24,7 +24,7 @@ export const en = {
       ]
     },
     {
-      name: "🚀 Pro — 99€/month",
+      name: "🚀 Pro",
       desc: "Scalable affiliate flow",
       features: [
         "Up to 200 products",
@@ -34,7 +34,7 @@ export const en = {
       ]
     },
     {
-      name: "🧠 Ultimate — 149€/month",
+      name: "🧠 Ultimate",
       desc: "Full control and monetization",
       features: [
         "Up to 500 products",
