@@ -1,36 +1,32 @@
-// core/pages/category/[categoryName].tsx
 import { useEffect, useState } from "react";
-import { Analytics } from "@vercel/analytics/react";
-import Link from "next/link";
 import { useRouter } from "next/router";
+import Link from "next/link";
+import { Analytics } from "@vercel/analytics/react";
 import ProductCard, { Product } from "@/components/ProductCard";
-
-const categories = [
-  "vlogging-camera",
-  "ring-light",
-  "microphone-youtube",
-  "tripod-phone",
-  "monopod-camera",
-  "camera-carry-bag",
-  "usb-c-charger-camera",
-  "vlogging-kit",
-  "cold-shoe-mount",
-  "portable-video-light",
-];
 
 export default function CategoryPage() {
   const router = useRouter();
   const { categoryName } = router.query;
 
+  const [categories, setCategories] = useState<string[]>([]);
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
 
+  // Load categories for navigation
+  useEffect(() => {
+    fetch("https://altimo.fi/amaproducts/public/categories.json")
+      .then((res) => res.json())
+      .then((data) => setCategories(data))
+      .catch((err) => console.error("Failed to load categories", err));
+  }, []);
+
+  // Load products for current category
   useEffect(() => {
     if (!categoryName) return;
 
     const fetchProducts = async () => {
       try {
-        const res = await fetch(`/products-${categoryName}.json`);
+        const res = await fetch(`https://altimo.fi/amaproducts/public/products-${categoryName}.json`);
         const json = await res.json();
         setProducts(json);
       } catch (error) {
@@ -46,7 +42,7 @@ export default function CategoryPage() {
   return (
     <div className="min-h-screen bg-gray-50 p-6">
 
-       {/* Categories navigation */}
+      {/* Categories navigation */}
       <div className="mb-10 text-center">
         <h2 className="text-2xl font-semibold mb-4">Categories</h2>
         <div className="flex flex-wrap gap-3 justify-center">
@@ -62,10 +58,12 @@ export default function CategoryPage() {
         </div>
       </div>
 
+      {/* Category title */}
       <h1 className="text-3xl font-bold mb-6 text-center">
         Category: {categoryName ? String(categoryName).replace(/-/g, " ") : ""}
       </h1>
 
+      {/* Products */}
       {loading ? (
         <p className="text-center">Loading...</p>
       ) : (
@@ -75,23 +73,21 @@ export default function CategoryPage() {
           ))}
         </div>
       )}
-       {/* Footer */}
-        <footer className="bg-gray-800 text-gray-300 text-center py-6">
-          <div className="space-x-4">
-            <Link href="/affiliate-disclaimer" className="hover:text-white underline">
-              Affiliate Disclaimer
-            </Link>
-            <Link href="/privacy-policy" className="hover:text-white underline">
-              Privacy Policy
-            </Link>
-          </div>
-          <p className="mt-2 text-sm">&copy; {new Date().getFullYear()} Best Tech Deals</p>
-        </footer>
 
-        <Analytics />
+      {/* Footer */}
+      <footer className="bg-gray-800 text-gray-300 text-center py-6 mt-10">
+        <div className="space-x-4">
+          <Link href="/affiliate-disclaimer" className="hover:text-white underline">
+            Affiliate Disclaimer
+          </Link>
+          <Link href="/privacy-policy" className="hover:text-white underline">
+            Privacy Policy
+          </Link>
+        </div>
+        <p className="mt-2 text-sm">&copy; {new Date().getFullYear()} Best Tech Deals</p>
+      </footer>
+
+      <Analytics />
     </div>
-
-
-
   );
 }

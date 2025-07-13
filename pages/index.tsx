@@ -1,13 +1,11 @@
-// core/pages/index.tsx
 import { Analytics } from "@vercel/analytics/react";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import ProductCard, { Product } from "@/components/ProductCard";
 
-
 export default function HomePage() {
-
   const [categories, setCategories] = useState<string[]>([]);
+  const [productsByCategory, setProductsByCategory] = useState<Record<string, Product[]>>({});
 
   useEffect(() => {
     fetch("https://altimo.fi/amaproducts/public/categories.json")
@@ -16,19 +14,19 @@ export default function HomePage() {
       .catch((err) => console.error("Failed to load categories", err));
   }, []);
 
-  const [productsByCategory, setProductsByCategory] = useState<Record<string, Product[]>>({});
-
   useEffect(() => {
+    if (categories.length === 0) return;
+
     categories.forEach(async (slug) => {
       try {
-        const res = await fetch(`/products-${slug}.json`);
+        const res = await fetch(`https://altimo.fi/amaproducts/public/products-${slug}.json`);
         const data = await res.json();
         setProductsByCategory((prev) => ({ ...prev, [slug]: data.slice(0, 3) }));
       } catch (e) {
-        console.error("Failed to load:", e);
+        console.error(`Failed to load products for ${slug}:`, e);
       }
     });
-  }, []);
+  }, [categories]);
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
@@ -72,7 +70,6 @@ export default function HomePage() {
                 <ProductCard key={product.name} product={product} />
               ))}
             </div>
-
           </div>
         );
       })}
@@ -91,7 +88,6 @@ export default function HomePage() {
       </footer>
 
       <Analytics />
-
     </div>
   );
 }
