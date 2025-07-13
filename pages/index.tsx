@@ -24,8 +24,8 @@ export default function HomePage() {
         const res = await fetch(`/products-${slug}.json`);
         const data = await res.json();
         setProductsByCategory((prev) => ({ ...prev, [slug]: data.slice(0, 3) }));
-      } catch (_) {
-        console.error(`Failed to load products-${slug}.json`);
+      } catch (e) {
+        console.error("Failed to load:", e);
       }
     });
   }, []);
