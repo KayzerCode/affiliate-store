@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import ProductCard, { Product } from "@/components/ProductCard";
@@ -72,6 +73,20 @@ export default function HomePage() {
                 <ProductCard key={product.name} product={product} />
               ))}
             </div>
+             {/* Footer */}
+        <footer className="bg-gray-800 text-gray-300 text-center py-6">
+          <div className="space-x-4">
+            <Link href="/affiliate-disclaimer" className="hover:text-white underline">
+              Affiliate Disclaimer
+            </Link>
+            <Link href="/privacy-policy" className="hover:text-white underline">
+              Privacy Policy
+            </Link>
+          </div>
+          <p className="mt-2 text-sm">&copy; {new Date().getFullYear()} Best Tech Deals</p>
+        </footer>
+
+        <Analytics />
           </div>
         );
       })}
