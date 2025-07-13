@@ -62,7 +62,7 @@ export default function CategoryPage() {
       </div>
 
       <h1 className="text-3xl font-bold mb-6 text-center">
-        Category: {categoryName}
+        Category: {categoryName ? String(categoryName).replace(/-/g, " ") : ""}
       </h1>
 
       {loading ? (
