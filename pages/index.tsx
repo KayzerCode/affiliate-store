@@ -1,20 +1,17 @@
+// core/pages/index.tsx
 import { Analytics } from "@vercel/analytics/react";
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import ProductCard, { Product } from "@/components/ProductCard";
 
-const categories = [
-  "vlogging-camera",
-  "ring-light",
-  "microphone-youtube",
-  "tripod-phone",
-  "monopod-camera",
-  "camera-carry-bag",
-  "usb-c-charger-camera",
-  "vlogging-kit",
-  "cold-shoe-mount",
-  "portable-video-light",
-];
+const [categories, setCategories] = useState<string[]>([]);
+
+useEffect(() => {
+  fetch("https://altimo.fi/amaproducts/public/categories.json")
+    .then((res) => res.json())
+    .then((data) => setCategories(data))
+    .catch((err) => console.error("Failed to load categories", err));
+}, []);
 
 export default function HomePage() {
   const [productsByCategory, setProductsByCategory] = useState<Record<string, Product[]>>({});

@@ -1,3 +1,4 @@
+// core/pages/category/[categoryName].tsx
 import { useEffect, useState } from "react";
 import { Analytics } from "@vercel/analytics/react";
 import Link from "next/link";
