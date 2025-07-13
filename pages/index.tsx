@@ -4,16 +4,18 @@ import { useEffect, useState } from "react";
 import Link from "next/link";
 import ProductCard, { Product } from "@/components/ProductCard";
 
-const [categories, setCategories] = useState<string[]>([]);
-
-useEffect(() => {
-  fetch("https://altimo.fi/amaproducts/public/categories.json")
-    .then((res) => res.json())
-    .then((data) => setCategories(data))
-    .catch((err) => console.error("Failed to load categories", err));
-}, []);
 
 export default function HomePage() {
+
+  const [categories, setCategories] = useState<string[]>([]);
+
+  useEffect(() => {
+    fetch("https://altimo.fi/amaproducts/public/categories.json")
+      .then((res) => res.json())
+      .then((data) => setCategories(data))
+      .catch((err) => console.error("Failed to load categories", err));
+  }, []);
+
   const [productsByCategory, setProductsByCategory] = useState<Record<string, Product[]>>({});
 
   useEffect(() => {
@@ -75,20 +77,20 @@ export default function HomePage() {
         );
       })}
 
-       {/* Footer */}
-        <footer className="bg-gray-800 text-gray-300 text-center py-6">
-          <div className="space-x-4">
-            <Link href="/affiliate-disclaimer" className="hover:text-white underline">
-              Affiliate Disclaimer
-            </Link>
-            <Link href="/privacy-policy" className="hover:text-white underline">
-              Privacy Policy
-            </Link>
-          </div>
-          <p className="mt-2 text-sm">&copy; {new Date().getFullYear()} Best Tech Deals</p>
-        </footer>
+      {/* Footer */}
+      <footer className="bg-gray-800 text-gray-300 text-center py-6">
+        <div className="space-x-4">
+          <Link href="/affiliate-disclaimer" className="hover:text-white underline">
+            Affiliate Disclaimer
+          </Link>
+          <Link href="/privacy-policy" className="hover:text-white underline">
+            Privacy Policy
+          </Link>
+        </div>
+        <p className="mt-2 text-sm">&copy; {new Date().getFullYear()} Best Tech Deals</p>
+      </footer>
 
-        <Analytics />
+      <Analytics />
 
     </div>
   );
