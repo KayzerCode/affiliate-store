@@ -73,7 +73,12 @@ export default function HomePage() {
                 <ProductCard key={product.name} product={product} />
               ))}
             </div>
-             {/* Footer */}
+
+          </div>
+        );
+      })}
+
+       {/* Footer */}
         <footer className="bg-gray-800 text-gray-300 text-center py-6">
           <div className="space-x-4">
             <Link href="/affiliate-disclaimer" className="hover:text-white underline">
@@ -87,9 +92,7 @@ export default function HomePage() {
         </footer>
 
         <Analytics />
-          </div>
-        );
-      })}
+
     </div>
   );
 }
