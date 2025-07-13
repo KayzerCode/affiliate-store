@@ -4,6 +4,19 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import ProductCard, { Product } from "@/components/ProductCard";
 
+const categories = [
+  "vlogging-camera",
+  "ring-light",
+  "microphone-youtube",
+  "tripod-phone",
+  "monopod-camera",
+  "camera-carry-bag",
+  "usb-c-charger-camera",
+  "vlogging-kit",
+  "cold-shoe-mount",
+  "portable-video-light",
+];
+
 export default function CategoryPage() {
   const router = useRouter();
   const { categoryName } = router.query;
@@ -31,6 +44,23 @@ export default function CategoryPage() {
 
   return (
     <div className="min-h-screen bg-gray-50 p-6">
+
+       {/* Categories navigation */}
+      <div className="mb-10 text-center">
+        <h2 className="text-2xl font-semibold mb-4">Categories</h2>
+        <div className="flex flex-wrap gap-3 justify-center">
+          {categories.map((slug) => (
+            <Link
+              key={slug}
+              href={`/category/${slug}`}
+              className="bg-indigo-100 text-indigo-800 px-4 py-2 rounded-xl hover:bg-indigo-200"
+            >
+              {slug.replace(/-/g, " ")}
+            </Link>
+          ))}
+        </div>
+      </div>
+
       <h1 className="text-3xl font-bold mb-6 text-center">
         Category: {categoryName}
       </h1>
